@@ -48,7 +48,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import csub from 'https://cdn.jsdelivr.net/gh/stdlib-js/complex-float64-base-sub@esm/index.mjs';
+import csub from 'https://cdn.jsdelivr.net/gh/stdlib-js/complex-float64-base-sub@v0.1.1-esm/index.mjs';
 ```
 
 #### csub( z1, z2 )
@@ -84,7 +84,7 @@ var v = csub( z1, z2 );
 import Complex128Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-complex128@esm/index.mjs';
 import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-discrete-uniform@esm/index.mjs';
 import logEachMap from 'https://cdn.jsdelivr.net/gh/stdlib-js/console-log-each-map@esm/index.mjs';
-import csub from 'https://cdn.jsdelivr.net/gh/stdlib-js/complex-float64-base-sub@esm/index.mjs';
+import csub from 'https://cdn.jsdelivr.net/gh/stdlib-js/complex-float64-base-sub@v0.1.1-esm/index.mjs';
 
 // Generate arrays of random values:
 var z1 = new Complex128Array( discreteUniform( 200, -50, 50 ) );
